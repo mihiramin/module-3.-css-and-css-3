@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css3</title>
+</head>
+
+<body>
+    <h2>css selector and styling</h2>
+    <h4>Que 1. What is a CSS selector? Provide examples of element, class, and ID selectors.</h4>
+    <p>
+        CSS selectors are used to "find" (or select) the HTML elements you want to style. examples of element class and
+        id are
+        element p Selects all
+    <p> elements. .class .intro Selects all elements with class="intro".#id #firstname Selects the element with
+        id="firstname"
+
+
+    </p>
+    <h4>Que 2. Explain the concept of CSS specificity. How do conflicts between multiple stylesget
+        resolved</h4>
+    <p>specificity as a hierarchy that determines which style declaration is ultimately applied to an element.
+        It is based on the type of selector used. For instance, an ID selector has higher specificity than a class
+        selector. When CSS conflicts occur, adjusting the specificity by using more specific selectors or combining them
+        appropriately resolves the issue.
+    </p>
+    <h4>Que 3. What is the difference between internal, external, and inline CSS? Discuss the
+        advantages and disadvantages of each approach.</h4>
+    <p>Inline CSS: Should be used sparingly. Ideal for one-off style changes. Internal CSS: Suitable for single pages or
+        when creating a prototype. External CSS: Best for larger projects, multi-page websites, and when you want
+        optimal maintainability.</p>
+    <h2>css box model</h2>
+    <h4>Que 1. Explain the CSS box model and its components (content, padding, border,
+        margin). How does each affect the size of an element?</h4>
+    <p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: content, padding,
+        borders and margins. Content - The content of the box, where text and images appear
+        Padding - Clears an area around the content. The padding is transparent
+        Border - A border that goes around the padding and content
+        Margin - Clears an area outside the border. The margin is transparent
+
+    </p>
+    <h4>Que 2. What is the difference between border-box and content-box box-sizing inCSS?
+        Which is the default</h4>
+    <p> When using box-sizing: content-box; the content size remain same while border-box size grows as padding and
+        border grow.content box is default.</p>
+    <h2>css flex box</h2>
+    <h4> Que 1.What is CSS Flexbox, and how is it useful for layout design? Explain the terms
+        flex-container and flex-item.</h4>
+    <p>Flexbox is a layout method for arranging items in rows or columns.
+
+        Flexbox makes it easier to design a flexible responsive layout structure, without using float or positioning.
+        An area of a document that is laid out using flexbox is called a flex container. To create a flex container, set
+        the area's display property to flex . When we do this, the direct children of that container become flex items.
+
+
+    </p>
+    <h4>Que 2. Describe the properties justify-content, align-items, and flexdirection used in Flexbox.</h4>
+    <p>justify-content is a CSS property that is used to align and distribute the flex items (or content) along the main
+        axis of a flex container.The align-items property specifies the default alignment for items inside a flexbox or
+        grid container.
+        The flex-direction property in CSS is used to set the direction of the flex container's main axis. </p>
+    <h2>css grid</h2>
+    <h4> Que 1.Explain CSS Grid and how it differs from Flexbox. When would you use Grid over
+        Flexbox?</h4>
+    <p>The CSS grid layout module excels at dividing a page into major regions or defining the relationship in terms of
+        size, position, and layer, between parts of a control built from HTML primitives. CSS Grid arranges items in
+        rows and columns (2-Dimension), while Flexbox aligns items in a single row or column (1-Dimension).</p>
+    <h4>Que 2. Describe the grid-template-columns, grid-template-rows, and grid-gap
+        properties. Provide examples of how to use them.
+    </h4>
+    <p>grid-template-columns defines the number and size of columns in a grid container, while grid-template-rows
+        defines the number and size of rows in the grid container. grid gap shorthand property that allows you to
+        specify the gap between rows and columns in a CSS Grid layout.</p>
+    <h2>responsive web design and media quaries</h2>
+    <h4>Que 1. What are media queries in CSS, and why are they important for responsive
+        design?</h4>
+    <p>Media queries allow you to apply CSS styles depending on a device's media type (such as print vs. screen) or
+        other features or characteristics such as screen resolution or orientation, aspect ratio, browser viewport width
+        or height, user preferences such as preferring reduced motion, data usage, or transparency.</p>
+    <h4>Que 2. Write a basic media query that adjusts the font size of a webpage for screens
+        smaller than 600px</h4>
+    <p>@media only screen and (min-width: 600px) {...}</p>
+    <h2>typography and web fonts</h2>
+    <h4>Que 1. Explain the difference between web-safe fonts and custom web fonts. Whymight
+        you use a web-safe font over a custom font?
+    </h4>
+    <p>
+
+        Web fonts are used online and are embedded in websites. while A custom font is any non-system-default typeface
+        you manually upload to your website.></p>
+    <h4>Que 2. What is the font-family property in CSS? How do you apply a custom GoogleFont
+        to a webpage?</h4>
+    <p> The font-family property specifies a list of fonts, from highest priority to lowest. Just add a special style
+        sheet link in the head section and then refer to the font in the CSS. Example. Here, we want to use a font </p>
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+.card{
+    margin: 0 auto;
+    width: 300px;
+    border: 1px solid green;
+    text-align: center;
+    
+    
+
+    
+}
+h2{
+    margin: 2px;
+
+}
+p{
+    margin:2px;
+}
+button{
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: blue;
+    margin-bottom: 3px;
+
+}
+img{
+    width: 100%;
+}

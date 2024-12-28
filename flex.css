@@ -1,0 +1,28 @@
+.container{
+    margin: 0 auto;
+    height: 600px;
+    width: 400px;
+    border: 1px solid green;
+    display: flex;
+    flex-wrap: wrap;
+}
+.header{
+    height: 100px;
+    width: 100%;
+    background-color: blueviolet;
+}
+.aside{
+    height: 400px;
+    width:200px;
+    background-color: brown;
+}
+.main{
+    height: 400px;
+    width: 200px;
+    background-color: blue;
+}
+.footer{
+    background-color: aquamarine;
+    height:100px ;
+    width:100% ;
+}
